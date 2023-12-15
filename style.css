@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+/* font-family: 'Nunito Sans', sans-serif; */
+
+/* SELECTOR UNIVERSAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    width: 100%vw;
+    height: 100%vh;
+}
+
+Body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 85px;   
+    background-image:url(./imágenes/fondo.jpg);
+}
+
+audio{
+    display: none; 
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 27px;
+    padding-top: 15px;
+}
+
+/* span{
+   animation: palpitar 2s linear infinite alternate;
+   will-change: transform;
+} */
+
+/* @keyframes palpitar{
+    0%{
+        transform: rotate(45deg) scale (1);
+    }
+    50%{
+        transform: rotate(45deg) scale(1.5);
+    }
+    100%{
+        transform: rotate(45deg) scale(1);
+    };
+} */
+
+p{
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+br{
+    margin: auto;
+}
+
+.Whatsapp{
+    border: 2px;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: antiquewhite;
+    font-size: 20px;
+}    
+
+.Whatsapp:hover{
+    color: rgb(114, 201, 27);
+    background-color: rgb(201, 217, 204);
+}
+
+.llamada{
+    border: 2px;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.llamada:hover{
+    color: rgb(114, 201, 27);
+    background-color: rgb(201, 217, 204);
+}
+
+.ubicación{
+    border: 2px;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.ubicación:hover{
+    color: rgb(114, 201, 27);
+    background-color: rgb(201, 217, 204);
+}
+
+iframe{
+     display: none;
+}
+
+footer{
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+    background-color: rgb(255, 229, 80); 
+    margin-top: 65px;
+}
+
+footer p{
+    font-size: 22px;
+}
+
+footer:hover{
+  background-color: rgb(240, 197, 41);
+}
