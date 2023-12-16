@@ -38,6 +38,7 @@ h2{
 img{
     background-size: 80px;
     transform: 1s;
+    padding-bottom: 6px;
 }
 
 img:hover{
@@ -53,7 +54,7 @@ img:hover{
 
 p{
     font-size: 25px;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 15px;
 }
 
