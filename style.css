@@ -19,8 +19,8 @@ Body{
     flex-direction: column;
     text-align: center;
     padding-top: 85px;   
-    background-image:url(./imágenes/fondo.jpg);
-}
+    background-image:url(./imágenes/fondo.jpg); 
+} 
 
 audio{
     display: none; 
@@ -35,22 +35,21 @@ h2{
     padding-top: 15px;
 }
 
-/* span{
-   animation: palpitar 2s linear infinite alternate;
-   will-change: transform;
-} */
+img{
+    background-size: 80px;
+    transform: 1s;
+}
 
-/* @keyframes palpitar{
-    0%{
-        transform: rotate(45deg) scale (1);
+img:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+@media(max-width:900px){
+    .foto_Estrella{
+        background-size: 80px;
     }
-    50%{
-        transform: rotate(45deg) scale(1.5);
-    }
-    100%{
-        transform: rotate(45deg) scale(1);
-    };
-} */
+}
 
 p{
     font-size: 25px;
