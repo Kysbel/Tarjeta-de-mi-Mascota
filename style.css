@@ -66,44 +66,58 @@ br{
     border: 2px;
     border-radius: 20px;
     padding: 8px;
-    background-color: antiquewhite;
+    background-color: #001250;
+    color: white;
     font-size: 20px;
     cursor: pointer;
 }    
 
 .Whatsapp:hover{
-    color: rgb(114, 201, 27);
-    background-color: rgb(201, 217, 204);
+    background-color:rgb(235, 156, 54);
 }
 
 .llamada{
     border: 2px;
     border-radius: 20px;
     padding: 8px;
-    background-color: antiquewhite;
+    background-color: #001250;
+    color: white;
     font-size: 20px;
     margin-top: 15px;
     cursor: pointer;
 }
 
 .llamada:hover{
-    color: rgb(114, 201, 27);
-    background-color: rgb(201, 217, 204);
+    background-color:rgb(235, 156, 54);
 }
 
 .ubicación{
     border: 2px;
     border-radius: 20px;
     padding: 8px;
-    background-color: antiquewhite;
+    background-color: #001250;
+    color: white;
     font-size: 20px;
     margin-top: 15px;
     cursor: pointer;
 }
 
 .ubicación:hover{
-    color: rgb(114, 201, 27);
-    background-color: rgb(201, 217, 204);
+    background-color: rgb(235, 156, 54);
+}
+
+.img_logo{
+    height: 380px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+@media (min-width:350px) and (max-width:833px){
+    .img_logo{
+        height: 300px;
+    }
 }
 
 iframe{
@@ -114,14 +128,19 @@ footer{
     width: 100%;
     margin-top: 25px;
     text-align: center;
-    background-color: rgb(255, 229, 80); 
-    margin-top: 65px;
+    background-color: #001250; 
+    color: white;
 }
 
 footer p{
     font-size: 22px;
    
 }
+
+a{
+    color: #FF3131;
+}
+
 
 footer:hover{
   background-color: rgb(240, 197, 41);
