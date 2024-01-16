@@ -73,7 +73,7 @@ br{
 }    
 
 .Whatsapp:hover{
-    background-color:rgb(235, 156, 54);
+    color: #FF3131;
 }
 
 .llamada{
@@ -88,7 +88,7 @@ br{
 }
 
 .llamada:hover{
-    background-color:rgb(235, 156, 54);
+    color: #FF3131;
 }
 
 .ubicación{
@@ -103,7 +103,7 @@ br{
 }
 
 .ubicación:hover{
-    background-color: rgb(235, 156, 54);
+    color: #FF3131;;
 }
 
 .img_logo{
